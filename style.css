@@ -220,4 +220,28 @@ button,
   .button.disabled,
   .button:disabled {
     opacity: 0.5; }    
-      
+  /* Header */
+#header h1 {
+  font-size: 3.25em;
+  margin: 0 0 0.55em 0; }
+
+#header p {
+  font-size: 1.35em;
+  line-height: 1.65em; }
+
+#header a {
+  color: inherit; }
+
+/* Estilo para la imagen a la derecha del texto */
+.image-right {
+    float: right;
+    margin-left: 60px;
+}
+.overlay-image {
+    position: absolute;
+    top: 0;
+    right: -100px; /* Ajusta el valor según cuánto quieras mover la imagen a la derecha */
+    z-index: 999; /* Asegura que la imagen esté por encima de otros elementos */
+    width: 600px; /* Ajusta el ancho según tu preferencia */
+    height: 600px; /* Ajusta el alto según tu preferencia */
+}    
