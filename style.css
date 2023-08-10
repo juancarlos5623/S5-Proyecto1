@@ -294,3 +294,19 @@ button,
     opacity: 1; }
   #footer > :last-child {
     margin-bottom: 0; }
+/* Mensaje de Agradecimiento */
+.hidden {
+  display: none;
+}
+
+#thank-you-label {
+  color: #1cb495; /* Color del mensaje "Thank you" */
+  margin-left: 10px; /* Espacio entre el mensaje y el botón */
+  font-size: 24px; /* Ajusta el tamaño del texto según tu preferencia */
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top: 11px; /* Ajusta el margen superior según tu preferencia */
+}
+
+#signup-button:focus + #thank-you-label {
+  display: inline;
+}
